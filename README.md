@@ -2,5 +2,11 @@
 
 💻 Página de mi artista favorito **The Driver Era**
 
-## Vista previa del proyecto ###
+## 1. Demo
 https://jazmin22eb.github.io/TDERA/
+
+## Vista previa del proyecto ###
+![imagen]("./../imagenes/demo1.png)
+
+
+

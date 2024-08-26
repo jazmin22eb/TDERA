@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    font-family:"Archivo Black", sans-serif;
+    font-size: 18px; 
+    color:white;
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+    font-family: "EB Garamond", serif;
+    font-size: 18px; 
+    color: white;
+}
+
+.image-container {
+    position: relative; /* Establece un contexto para el posicionamiento absoluto */
+    width: 110%;        /* Ajusta el ancho según sea necesario */
+    max-width: 650px;   /* Ajusta el máximo ancho según sea necesario */
+  }
+  
+  /* Imagen de fondo */
+.image-container img {
+    display: block; /* Elimina el espacio debajo de la imagen */
+    width: 100%;    /* Ajusta la imagen al ancho del contenedor */
+    height: auto;   /* Mantiene la relación de aspecto de la imagen */
+  }
+  
+  /* Texto sobre la imagen */
+.overlay-text {
+    position: absolute;
+    top: 50%;        /* Ajusta la posición vertical del texto */
+    left: 50%;       /* Ajusta la posición horizontal del texto */
+    transform: translate(-50%, -50%); /* Centra el texto en relación a su punto de referencia */
+    color: white;    /* Color del texto, puedes ajustarlo según el contraste deseado */
+    font-size: 84px; /* Tamaño de la fuente, ajústalo según sea necesario */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
+    padding: 10px;   /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados (opcional) */
+  }
+  
+img{
+    width: 480px;
+    height: 370px;
+    padding: 40px;
+    margin: 40px;
+}
+
+#canciones{
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+}
+ 
+ol{
+    text-align: justify;
+    font-family: "EB Garamond", serif;
+    font-size: 18px; 
+    border-radius: 5000px;
+    color: white;
+}
+
+ul{
+    text-align: justify;
+    font-family: "EB Garamond", serif;
+    font-size: 18px; 
+    border-radius: 5000px;
+    color: white;
+}
+
+
+
+ 
